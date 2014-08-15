@@ -5,7 +5,7 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{C56910E2-7131-A591-49A7-AC928B6BF7E7}</ProjectGuid>
+	<ProjectGuid>{F6BEC335-4764-3D74-30AC-13B6CB35619F}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
@@ -46,22 +46,32 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Bush.cs" />
-     <Compile Include="Assets\CellManager.cs" />
-     <Compile Include="Assets\EmptyGameObject.cs" />
-     <Compile Include="Assets\Flower.cs" />
-     <Compile Include="Assets\Grass.cs" />
-     <Compile Include="Assets\GrowBeam.cs" />
-     <Compile Include="Assets\GrowBeamCursor.cs" />
-     <Compile Include="Assets\LifeCell.cs" />
-     <Compile Include="Assets\Oak.cs" />
-     <Compile Include="Assets\Sapling.cs" />
+     <Compile Include="Assets\Scripts\CellManager.cs" />
+     <Compile Include="Assets\Scripts\GrowBeam.cs" />
+     <Compile Include="Assets\Scripts\GrowBeamCursor.cs" />
+     <Compile Include="Assets\Scripts\LifeCell.cs" />
+     <Compile Include="Assets\Scripts\MonoLifeCell.cs" />
+     <Compile Include="Assets\Scripts\MultiLifeCell.cs" />
+     <Compile Include="Assets\Scripts\Plant Species Markers\BigShroom.cs" />
+     <Compile Include="Assets\Scripts\Plant Species Markers\Bush.cs" />
+     <Compile Include="Assets\Scripts\Plant Species Markers\CapsuleShroom.cs" />
+     <Compile Include="Assets\Scripts\Plant Species Markers\EmptyGameObject.cs" />
+     <Compile Include="Assets\Scripts\Plant Species Markers\Flower.cs" />
+     <Compile Include="Assets\Scripts\Plant Species Markers\Grass.cs" />
+     <Compile Include="Assets\Scripts\Plant Species Markers\MegaTree.cs" />
+     <Compile Include="Assets\Scripts\Plant Species Markers\Oak.cs" />
+     <Compile Include="Assets\Scripts\Plant Species Markers\PlantSpecies.cs" />
+     <Compile Include="Assets\Scripts\Plant Species Markers\Sapling.cs" />
+     <Compile Include="Assets\Scripts\Plant Species Markers\ShroomSeedling.cs" />
+     <Compile Include="Assets\Scripts\Plant Species Markers\SquatShroom.cs" />
+     <Compile Include="Assets\Scripts\Plant Species Markers\ThinShroom.cs" />
+     <Compile Include="Assets\Scripts\Plant Species Markers\TreeSeedling.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{EE3259BB-2919-F57F-F7C5-10966CDE1BE6}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+      <Project>{80CF19F8-F8A3-0980-D71C-ECEBB100A7DD}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
     <ProjectReference Include="Assembly-UnityScript-firstpass.unityproj">
-      <Project>{795C5FD4-6E30-D699-89EF-FAFAC156C2FC}</Project>      <Name>Assembly-UnityScript-firstpass</Name>    </ProjectReference>
+      <Project>{A79FFB93-E119-9EC0-7C3C-B13193518012}</Project>      <Name>Assembly-UnityScript-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
