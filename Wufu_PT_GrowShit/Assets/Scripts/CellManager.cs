@@ -8,18 +8,12 @@ public class CellManager : MonoBehaviour {
 	public float cellAlpha = 0.1f;
 	
 	public GameObject[,] cells;
-	
-	
-	private Vector3 testVector;
+
 	private float cellWidth;
 	void Start () 
 	{
 		cellWidth = (cellPrefab.renderer.bounds.max.x - cellPrefab.collider.bounds.min.x) * 2f;		
 		InstantiateCells(cellGridColumns, cellGridRows);
-	}
-	
-	void Update () {
-		testVector = cellPrefab.collider.bounds.size;//cellPrefab.collider.bounds.extents;
 	}
 	
 	void InstantiateCells(int rows, int columns)
