@@ -46,29 +46,39 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\ExtraInput.cs" />
-     <Compile Include="Assets\PrototypeOptions.cs" />
-     <Compile Include="Assets\Scripts\CellManager.cs" />
-     <Compile Include="Assets\Scripts\GrowBeam.cs" />
-     <Compile Include="Assets\Scripts\GrowBeamCursor.cs" />
-     <Compile Include="Assets\Scripts\LifeCell.cs" />
-     <Compile Include="Assets\Scripts\MonoLifeCell.cs" />
-     <Compile Include="Assets\Scripts\MultiLifeCell.cs" />
-     <Compile Include="Assets\Scripts\OverrideBloom.cs" />
-     <Compile Include="Assets\Scripts\Plant Species Markers\BigShroom.cs" />
-     <Compile Include="Assets\Scripts\Plant Species Markers\Bush.cs" />
-     <Compile Include="Assets\Scripts\Plant Species Markers\CapsuleShroom.cs" />
-     <Compile Include="Assets\Scripts\Plant Species Markers\EmptyGameObject.cs" />
-     <Compile Include="Assets\Scripts\Plant Species Markers\Flower.cs" />
-     <Compile Include="Assets\Scripts\Plant Species Markers\Grass.cs" />
-     <Compile Include="Assets\Scripts\Plant Species Markers\MegaTree.cs" />
-     <Compile Include="Assets\Scripts\Plant Species Markers\Oak.cs" />
-     <Compile Include="Assets\Scripts\Plant Species Markers\PlantSpecies.cs" />
-     <Compile Include="Assets\Scripts\Plant Species Markers\Sapling.cs" />
-     <Compile Include="Assets\Scripts\Plant Species Markers\ShroomSeedling.cs" />
-     <Compile Include="Assets\Scripts\Plant Species Markers\SquatShroom.cs" />
-     <Compile Include="Assets\Scripts\Plant Species Markers\ThinShroom.cs" />
-     <Compile Include="Assets\Scripts\Plant Species Markers\TreeSeedling.cs" />
+     <Compile Include="Assets\AIShit\CreatueBasic.cs" />
+     <Compile Include="Assets\AIShit\DayNightCycle.cs" />
+     <Compile Include="Assets\AIShit\InterestPoint.cs" />
+     <Compile Include="Assets\AIShit\MaterialLibrary.cs" />
+     <Compile Include="Assets\AIShit\Moonlight.cs" />
+     <Compile Include="Assets\AIShit\Sunlight.cs" />
+     <Compile Include="Assets\AIShit\WorldLister.cs" />
+     <Compile Include="Assets\AIShit\WorldZone.cs" />
+     <Compile Include="Assets\AIShit\ZoneManager.cs" />
+     <Compile Include="Assets\GrowShit\ExtraInput.cs" />
+     <Compile Include="Assets\GrowShit\PrototypeOptions.cs" />
+     <Compile Include="Assets\GrowShit\Scripts\CellManager.cs" />
+     <Compile Include="Assets\GrowShit\Scripts\GrowBeam.cs" />
+     <Compile Include="Assets\GrowShit\Scripts\GrowBeamCursor.cs" />
+     <Compile Include="Assets\GrowShit\Scripts\LifeCell.cs" />
+     <Compile Include="Assets\GrowShit\Scripts\MonoLifeCell.cs" />
+     <Compile Include="Assets\GrowShit\Scripts\MultiLifeCell.cs" />
+     <Compile Include="Assets\GrowShit\Scripts\OverrideBloom.cs" />
+     <Compile Include="Assets\GrowShit\Scripts\Plant Species Markers\BigShroom.cs" />
+     <Compile Include="Assets\GrowShit\Scripts\Plant Species Markers\Bush.cs" />
+     <Compile Include="Assets\GrowShit\Scripts\Plant Species Markers\CapsuleShroom.cs" />
+     <Compile Include="Assets\GrowShit\Scripts\Plant Species Markers\EmptyGameObject.cs" />
+     <Compile Include="Assets\GrowShit\Scripts\Plant Species Markers\Flower.cs" />
+     <Compile Include="Assets\GrowShit\Scripts\Plant Species Markers\Grass.cs" />
+     <Compile Include="Assets\GrowShit\Scripts\Plant Species Markers\MegaTree.cs" />
+     <Compile Include="Assets\GrowShit\Scripts\Plant Species Markers\Oak.cs" />
+     <Compile Include="Assets\GrowShit\Scripts\Plant Species Markers\PlantSpecies.cs" />
+     <Compile Include="Assets\GrowShit\Scripts\Plant Species Markers\Sapling.cs" />
+     <Compile Include="Assets\GrowShit\Scripts\Plant Species Markers\ShroomSeedling.cs" />
+     <Compile Include="Assets\GrowShit\Scripts\Plant Species Markers\SquatShroom.cs" />
+     <Compile Include="Assets\GrowShit\Scripts\Plant Species Markers\ThinShroom.cs" />
+     <Compile Include="Assets\GrowShit\Scripts\Plant Species Markers\TreeSeedling.cs" />
+     <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
