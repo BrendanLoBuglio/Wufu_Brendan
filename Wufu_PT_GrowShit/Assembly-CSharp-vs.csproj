@@ -46,15 +46,18 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\AIShit\CreatueBasic.cs" />
-     <Compile Include="Assets\AIShit\DayNightCycle.cs" />
-     <Compile Include="Assets\AIShit\InterestPoint.cs" />
-     <Compile Include="Assets\AIShit\MaterialLibrary.cs" />
-     <Compile Include="Assets\AIShit\Moonlight.cs" />
-     <Compile Include="Assets\AIShit\Sunlight.cs" />
-     <Compile Include="Assets\AIShit\WorldLister.cs" />
-     <Compile Include="Assets\AIShit\WorldZone.cs" />
-     <Compile Include="Assets\AIShit\ZoneManager.cs" />
+     <Compile Include="Assets\AIShit\Scripts\Biome.cs" />
+     <Compile Include="Assets\AIShit\Scripts\CreatueBasic.cs" />
+     <Compile Include="Assets\AIShit\Scripts\DayNightCycle.cs" />
+     <Compile Include="Assets\AIShit\Scripts\EcoStructure.cs" />
+     <Compile Include="Assets\AIShit\Scripts\InterestPoint.cs" />
+     <Compile Include="Assets\AIShit\Scripts\LegacyWorldZone.cs" />
+     <Compile Include="Assets\AIShit\Scripts\MaterialLibrary.cs" />
+     <Compile Include="Assets\AIShit\Scripts\Moonlight.cs" />
+     <Compile Include="Assets\AIShit\Scripts\Sunlight.cs" />
+     <Compile Include="Assets\AIShit\Scripts\WorldLister.cs" />
+     <Compile Include="Assets\AIShit\Scripts\WorldZone.cs" />
+     <Compile Include="Assets\AIShit\Scripts\ZoneManager.cs" />
      <Compile Include="Assets\GrowShit\ExtraInput.cs" />
      <Compile Include="Assets\GrowShit\PrototypeOptions.cs" />
      <Compile Include="Assets\GrowShit\Scripts\CellManager.cs" />
